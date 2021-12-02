@@ -1,0 +1,16 @@
+domain: checker.io
+layout:
+- go.kubebuilder.io/v3
+projectName: checker
+repo: github.com/YutaroHayakawa/learning-kubebuilder
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: checker.io
+  group: checker
+  kind: Check
+  path: github.com/YutaroHayakawa/learning-kubebuilder/api/v1
+  version: v1
+version: "3"
